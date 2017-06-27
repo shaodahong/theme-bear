@@ -1,0 +1,22 @@
+{
+    "name": "dahong",
+    "displayName": "dahong",
+    "description": "A simple theme",
+    "version": "0.0.1",
+    "publisher": "shaodahong",
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "dahong",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dahong-color-theme.json"
+            }
+        ]
+    }
+}
