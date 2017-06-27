@@ -1,7 +1,94 @@
 {
-	"tokenColors": "./dahong.tmTheme",
 	"colors": {
-		
+		//editor
+		"editor.background": "#1D2326",
+		"editor.foreground": "#958976",
+		"editor.selectionBackground": "#40627C",
+		"editor.selectionHighlightBackground": "#40627C",
+		"editorCursor.foreground": "#958976",
+		"editorGutter.background": "#1D2326",
+		"editorHoverWidget.background": "#1D2326",
+		"editorIndentGuide.background": "#1D2326",
+		"editorLineNumber.foreground": "#424852",
+		"editorLink.activeForeground": "#000",
+
+		//sideBar
+		"sideBar.background": "#1D2326",
+		"sideBar.border": "#424852",
+		"sideBar.foreground": "#958976",
+		"sideBarSectionHeader.background": "#1D2326",
+		"sideBarSectionHeader.foreground": "#999",
+		"sideBarTitle.foreground": "#999",
+
+		// statusBar
+		"statusBar.background": "#1D2326",
+		"statusBar.border": "#424852",
+		"statusBar.foreground": "#958976",
+		"statusBar.debuggingBackground": "#958976",
+		"statusBar.debuggingForeground": "#1D2326",
+
+		// tab
+		"tab.activeBackground": "#1D2326",
+		"tab.activeForeground": "#958976",
+
+
+		"panel.background": "#1D2326",
+
+		// activityBar
+		"activityBar.background": "#1D2326",
+		"activityBar.border": "#424852",
+		"activityBar.foreground": "#958976",
+		"activityBarBadge.background": "#424852",
+
+		// titleBar
+		"titleBar.activeBackground": "#1D2326",
+		"titleBar.activeForeground": "#958976",
+		"titleBar.inactiveBackground": "#958976",
+		"titleBar.inactiveForeground": "#1D2326"
+
 	},
-	"name": "dahong"
+	"name": "dahong",
+	"tokenColors": [{
+		"settings": {
+			"foreground": "#e6e1cfff",
+			"background": "#0f1419ff"
+		}
+	}, {
+		"name": "Comments",
+			"scope": "comment, punctuation.definition.comment",
+			"settings": {
+				"foreground": "#5C6773"
+			}
+	}, {
+		"name": "Storage Type Function",
+			"scope": "storage.type.function.js",
+			"settings": {
+				"foreground": "#2980B9"
+			}
+	}, {
+		"name": "Storage Type",
+			"scope": "keyword.operator.expression.typeof.js, keyword.control.trycatch.js, keyword.control.loop.js, keyword.control.switch.js, keyword.operator.new.js, storage.type.js, storage.type.function.js,  keyword.control.conditional.js, keyword.control.flow.js",
+			"settings": {
+				"foreground": "#C24644"
+			}
+	}, {
+		"name": "Entity Name Function",
+			"scope": "variable.language.this.js, entity.name.function.js, entity.name.type.js",
+			"settings": {
+				"foreground": "#2C8AC7"
+			}
+	}, {
+		"name": "Support Variable Dom",
+			"scope": "support.variable.dom.js",
+			"settings": {
+				"foreground": "#928ADE"
+			}
+	}, {
+		"name": "Support Function",
+			"scope": "support.function.js",
+			"settings": {
+				"foreground": "#8FA671"
+			}
+	}
+	]
 }
