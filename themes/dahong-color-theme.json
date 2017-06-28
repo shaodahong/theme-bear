@@ -2,20 +2,20 @@
 	"colors": {
 		//editor
 		"editor.background": "#1D2326",
-		"editor.foreground": "#958976",
+		"editor.foreground": "#bcb28d",
 		"editor.selectionBackground": "#40627C",
 		"editor.selectionHighlightBackground": "#40627C",
-		"editorCursor.foreground": "#958976",
+		"editorCursor.foreground": "#bcb28d",
 		"editorGutter.background": "#1D2326",
 		"editorHoverWidget.background": "#1D2326",
 		"editorIndentGuide.background": "#1D2326",
 		"editorLineNumber.foreground": "#424852",
-		"editorLink.activeForeground": "#000",
+		"editorLink.activeForeground": "#999",
 
 		//sideBar
 		"sideBar.background": "#1D2326",
 		"sideBar.border": "#424852",
-		"sideBar.foreground": "#958976",
+		"sideBar.foreground": "#bcb28d",
 		"sideBarSectionHeader.background": "#1D2326",
 		"sideBarSectionHeader.foreground": "#999",
 		"sideBarTitle.foreground": "#999",
@@ -23,13 +23,13 @@
 		// statusBar
 		"statusBar.background": "#1D2326",
 		"statusBar.border": "#424852",
-		"statusBar.foreground": "#958976",
-		"statusBar.debuggingBackground": "#958976",
+		"statusBar.foreground": "#bcb28d",
+		"statusBar.debuggingBackground": "#bcb28d",
 		"statusBar.debuggingForeground": "#1D2326",
 
 		// tab
 		"tab.activeBackground": "#1D2326",
-		"tab.activeForeground": "#958976",
+		"tab.activeForeground": "#bcb28d",
 
 
 		"panel.background": "#1D2326",
@@ -37,13 +37,13 @@
 		// activityBar
 		"activityBar.background": "#1D2326",
 		"activityBar.border": "#424852",
-		"activityBar.foreground": "#958976",
+		"activityBar.foreground": "#bcb28d",
 		"activityBarBadge.background": "#424852",
 
 		// titleBar
 		"titleBar.activeBackground": "#1D2326",
-		"titleBar.activeForeground": "#958976",
-		"titleBar.inactiveBackground": "#958976",
+		"titleBar.activeForeground": "#bcb28d",
+		"titleBar.inactiveBackground": "#bcb28d",
 		"titleBar.inactiveForeground": "#1D2326"
 
 	},
@@ -69,25 +69,31 @@
 		"name": "Storage Type",
 			"scope": "keyword.operator.expression.typeof.js, keyword.control.trycatch.js, keyword.control.loop.js, keyword.control.switch.js, keyword.operator.new.js, storage.type.js, storage.type.function.js,  keyword.control.conditional.js, keyword.control.flow.js",
 			"settings": {
-				"foreground": "#C24644"
+				"foreground": "#EB286C"
 			}
 	}, {
 		"name": "Entity Name Function",
-			"scope": "variable.language.this.js, entity.name.function.js, entity.name.type.js",
+			"scope": "entity.name.function.js, entity.name.type.js, support.class.builtin.js, support.variable.property.js",
 			"settings": {
-				"foreground": "#2C8AC7"
+				"foreground": "#39a8d1"
 			}
 	}, {
 		"name": "Support Variable Dom",
 			"scope": "support.variable.dom.js",
 			"settings": {
-				"foreground": "#928ADE"
+				"foreground": "#39a8d1"
 			}
 	}, {
 		"name": "Support Function",
-			"scope": "support.function.js",
+			"scope": "support.function.js, support.function.dom.js",
 			"settings": {
-				"foreground": "#8FA671"
+				"foreground": "#79BD8F"
+			}
+	}, {
+		"name": "Variable Parameter",
+			"scope": "variable.parameter.js, variable.language.this.js,",
+			"settings": {
+				"foreground": "#D96630"
 			}
 	}
 	]

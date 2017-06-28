@@ -30,6 +30,12 @@
         
     }
 
+    Object.keys()
+
+    var b = require('webpack')
+
+    document.getElementById('box')
+
     var GK = {
         /**
          * @description 请求客户端接口
