@@ -1,9 +1,9 @@
 {
-    "name": "dahong",
-    "displayName": "dahong",
+    "name": "theme-bear",
+    "displayName": "Theme Bear",
     "description": "A simple theme",
     "version": "0.0.1",
-    "publisher": "shaodahong",
+    "publisher": "dahong",
     "engines": {
         "vscode": "^1.13.0"
     },
@@ -13,9 +13,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "dahong",
+                "label": "Theme Bear",
                 "uiTheme": "vs-dark",
-                "path": "./themes/dahong-color-theme.json"
+                "path": "./themes/bear-color-theme.json"
             }
         ]
     }

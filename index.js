@@ -1,4 +1,5 @@
-;(function (window, Util) {
+;
+(function (window, Util) {
     'use strict';
     var getUserAgent = function () {
         return navigator.userAgent.split(';')
@@ -27,7 +28,7 @@
     module.exports = GK;
 
     for (var i = 0; i < arr.length; i++) {
-        
+
     }
 
     Object.keys()
@@ -35,6 +36,29 @@
     var b = require('webpack')
 
     document.getElementById('box')
+
+    //定义类
+    class Point {
+        constructor(x, y) {
+            this.x = x;
+            this.y = y;
+        }
+
+        toString() {
+            return '(' + this.x + ', ' + this.y + ')';
+        }
+    }
+
+    console.log()
+
+    const a1 = 123;
+    let b1 = {}
+
+    var str = (str) => (str + '1');
+
+    import {get, set} from 'angular';
+
+    var angular = require('angular');
 
     var GK = {
         /**
@@ -51,7 +75,8 @@
                 throw new Error('Can not find interface ' + name);
             }
 
-            var args = [], needJSONEncode = true;
+            var args = [],
+                needJSONEncode = true;
             if (typeof param !== 'undefined') {
                 if (['gSetClipboardDataHtml', 'gSetClipboardData', 'gDialogAction'].indexOf(name) >= 0) {
                     needJSONEncode = false;
@@ -115,8 +140,7 @@
                 if (params.hasOwnProperty(key)) {
                     params[key] = String(params[key]);
                 }
-            }
-            ;
+            };
             this.invoke('gGetApiAuthorization', params, function (re) {
                 _self.isFunc(callback) && callback(re.sign);
             });
@@ -825,7 +849,9 @@
                                             if (data && data.list && data.list[0]) {
                                                 if (typeof WEB_CONSTANT !== 'undefined') {
                                                     if (typeof WEB_CONSTANT.mount === 'undefined') {
-                                                        WEB_CONSTANT.mount = {list: []};
+                                                        WEB_CONSTANT.mount = {
+                                                            list: []
+                                                        };
                                                     }
                                                     if (!$.isArray(WEB_CONSTANT.mount.list)) {
                                                         WEB_CONSTANT.mount.list = [];
@@ -844,7 +870,7 @@
                                         }
                                     });
                                     break;
-                                default :
+                                default:
                                     _self.isFunc(callback) && callback({});
                                     break;
                             }
@@ -963,7 +989,8 @@
                         if (list.length == 1 && list[0].dir == 1) {
                             dir = 1;
                         }
-                        var mount_id = 0, fullpaths = [];
+                        var mount_id = 0,
+                            fullpaths = [];
                         $.each(list, function (i, v) {
                             if (!mount_id) mount_id = v.mount_id;
                             if (v.mount_id == mount_id) {
@@ -981,9 +1008,9 @@
                             },
                             success: function (data) {
                                 var action = data.server + '/' + data.filename;
-                                var form = $('<form style="display:none;" method="post" action="' + action + '">'
-                                    + '<input type="hidden" name="list" value="' + encodeURIComponent(data.list) + '" >'
-                                    + '</form>');
+                                var form = $('<form style="display:none;" method="post" action="' + action + '">' +
+                                    '<input type="hidden" name="list" value="' + encodeURIComponent(data.list) + '" >' +
+                                    '</form>');
                                 $('body').append(form);
                                 form.submit();
                                 form.remove();
@@ -1296,7 +1323,7 @@
             if (window.localStorage && window.localStorage.getItem('enableGKLog') == 1) {
                 var args = Array.prototype.slice.call(arguments, 0);
                 args[0] = '%c [' + getLogTime() + '][' + args[0] + ']';
-                if (typeof(console) !== 'undefined' && typeof(console.log) === 'function') {
+                if (typeof (console) !== 'undefined' && typeof (console.log) === 'function') {
                     console.log.apply(console, args);
                 }
             }

@@ -67,13 +67,13 @@
 			}
 	}, {
 		"name": "Storage Type",
-			"scope": "keyword.operator.expression.typeof.js, keyword.control.trycatch.js, keyword.control.loop.js, keyword.control.switch.js, keyword.operator.new.js, storage.type.js, storage.type.function.js,  keyword.control.conditional.js, keyword.control.flow.js",
+			"scope": "keyword.control.import.js, keyword.control.from.js, storage.type.function.arrow.js, storage.type.class.js, keyword.operator.expression.typeof.js, keyword.control.trycatch.js, keyword.control.loop.js, keyword.control.switch.js, keyword.operator.new.js, storage.type.js, storage.type.function.js,  keyword.control.conditional.js, keyword.control.flow.js",
 			"settings": {
 				"foreground": "#EB286C"
 			}
 	}, {
 		"name": "Entity Name Function",
-			"scope": "entity.name.function.js, entity.name.type.js, support.class.builtin.js, support.variable.property.js",
+			"scope": "entity.name.function.js, entity.name.type.js, support.class.builtin.js, support.variable.property.js, entity.name.type.class.js",
 			"settings": {
 				"foreground": "#39a8d1"
 			}
@@ -91,7 +91,13 @@
 			}
 	}, {
 		"name": "Variable Parameter",
-			"scope": "variable.parameter.js, variable.language.this.js,",
+			"scope": "variable.parameter.js",
+			"settings": {
+				"foreground": "#D96630"
+			}
+	}, {
+		"name": "Variable Parameter",
+			"scope": "variable.language.this.js, variable.other.readwrite.alias.js",
 			"settings": {
 				"foreground": "#D96630"
 			}
