@@ -16,7 +16,7 @@
 
 		//sideBar
 		"sideBar.background": "#393E46",
-		"sideBar.border": "#424852",
+		"sideBar.border": "#3A3226",
 		"sideBar.foreground": "#bcb28d",
 		"sideBarSectionHeader.background": "#393E46",
 		"sideBarSectionHeader.foreground": "#999",
@@ -59,43 +59,68 @@
 		"name": "Comments",
 			"scope": "comment, punctuation.definition.comment",
 			"settings": {
-				"foreground": "#595855"
+				"foreground": "#707C74"
 			}
 	}, {
 		"name": "Storage Type",
-			"scope": "keyword.control.import.js, keyword.control.from.js, storage.type.function.arrow.js, storage.type.class.js, keyword.operator.expression.typeof.js, keyword.control.trycatch.js, keyword.control.loop.js, keyword.control.switch.js, keyword.operator.new.js, storage.type.js, storage.type.function.js,  keyword.control.conditional.js, keyword.control.flow.js",
+			"scope": "keyword.control.from.js, storage.type.function.arrow.js, storage.type.class.js, keyword.operator.expression.typeof.js, keyword.control.trycatch.js, keyword.control.loop.js, keyword.control.switch.js, keyword.operator.new.js, storage.type.js, storage.type.function.js,  keyword.control.conditional.js, keyword.control.flow.js, variable.language.this.js",
 			"settings": {
-				"foreground": "#da7748"
+				"foreground": "#E03C8A"
 			}
 	}, {
 		"name": "Entity Name Function",
-			"scope": "entity.name.function.js, entity.name.type.js, support.class.builtin.js, support.variable.property.js, entity.name.type.class.js",
+			"scope": "keyword.control.import.js, entity.name.function.js, entity.name.type.js, support.class.builtin.js, support.variable.property.js, entity.name.type.class.js",
 			"settings": {
-				"foreground": "#22A7F0"
+				"foreground": "#58B2DC"
+			}
+	}, {
+		"name": "Html Tag",
+			"scope": "entity.name.tag.block.any.html, entity.name.tag.html, entity.name.tag.inline.any.html, entity.name.tag.css, entity.name.tag.other.html, entity.name.tag.script.html, entity.name.tag.style.html, entity.name.tag.structure.any.html",
+			"settings": {
+				"foreground": "#E03C8A"
 			}
 	}, {
 		"name": "Support Variable Dom",
 			"scope": "support.variable.dom.js",
 			"settings": {
-				"foreground": "#22A7F0"
+				"foreground": "#58B2DC"
 			}
 	}, {
 		"name": "Support Function",
 			"scope": "support.function.js, support.function.dom.js",
 			"settings": {
-				"foreground": "#22A7F0"
+				"foreground": "#58B2DC"
+			}
+	}, {
+		"name": "Keyword Control Export",
+			"scope": "keyword.control.export.js, support.type.object.module.js, keyword.control.default.js",
+			"settings": {
+				"foreground": "#58B2DC",
+				"fontStyle": "underline"
 			}
 	}, {
 		"name": "Variable Parameter",
 			"scope": "variable.parameter.js",
 			"settings": {
-				"foreground": "#A2ABA5"
+				"foreground": "#EEA9A9"
 			}
 	}, {
 		"name": "Variable Parameter",
-			"scope": "variable.language.this.js, variable.other.readwrite.alias.js",
+			"scope": "meta.object-literal.key.js, entity.other.attribute-name.html, support.type.property-name.css",
 			"settings": {
-				"foreground": "#A2ABA5"
+				"foreground": "#EEA9A9"
+			}
+	}, {
+		"name": "Constant Numeric Decimal",
+			"scope": "constant.numeric.decimal.js, entity.other.attribute-name.pseudo-class.css",
+			"settings": {
+				"foreground": "#B481BB"
+			}
+	}, {
+		"name": "JSON",
+			"scope": "support.type.property-name.json",
+			"settings": {
+				"foreground": "#EEA9A9"
 			}
 	}
 	]
