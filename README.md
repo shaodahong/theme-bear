@@ -1,4 +1,6 @@
 # Theme Bear
-A simple theme for vscode
+A simple and easy to use theme
 
-![theme-bear](./bear.png)
+<p align="center">
+  <img alt="VS Code in action" width="80%" src="./bear.png">
+</p>
