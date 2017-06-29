@@ -9,14 +9,14 @@
 		"editorGutter.background": "#393E46",
 		"editorHoverWidget.background": "#393E46",
 		"editorIndentGuide.background": "#393E46",
-		"editorLineNumber.foreground": "#424852",
+		"editorLineNumber.foreground": "#666",
 		"editorLink.activeForeground": "#999",
-		"editor.lineHighlightBackground": "#2d2d2d",
+		"editor.lineHighlightBackground": "#424852",
 		"editor.lineHighlightBorder": "#393E46",
 
 		//sideBar
 		"sideBar.background": "#393E46",
-		"sideBar.border": "#3A3226",
+		"sideBar.border": "#424852",
 		"sideBar.foreground": "#bcb28d",
 		"sideBarSectionHeader.background": "#393E46",
 		"sideBarSectionHeader.foreground": "#999",
@@ -28,10 +28,13 @@
 		"statusBar.foreground": "#bcb28d",
 		"statusBar.debuggingBackground": "#bcb28d",
 		"statusBar.debuggingForeground": "#393E46",
+		"statusBar.noFolderBackground": "#393E46",
+		"statusBar.noFolderForeground": "#bcb28d",
 
 		// tab
 		"tab.activeBackground": "#393E46",
 		"tab.activeForeground": "#bcb28d",
+		"tab.border": "#424852",
 
 		// panel
 		"panel.background": "#393E46",
@@ -46,7 +49,20 @@
 		"titleBar.activeBackground": "#393E46",
 		"titleBar.activeForeground": "#bcb28d",
 		"titleBar.inactiveBackground": "#bcb28d",
-		"titleBar.inactiveForeground": "#393E46"
+		"titleBar.inactiveForeground": "#393E46",
+
+		// list
+		"list.hoverBackground": "#424852",
+		"list.activeSelectionBackground": "#424852",
+		"list.activeSelectionForeground": "#b3b3b3",
+		"list.focusForeground": "#424852",
+		"list.inactiveSelectionBackground": "#424852",
+		"list.inactiveSelectionForeground": "#b3b3b3",
+
+		// editorGroupHeader
+		"editorGroupHeader.tabsBackground": "#393E46"
+
+
 
 	},
 	"name": "theme-bear",
@@ -57,71 +73,70 @@
 		}
 	}, {
 		"name": "Comments",
-			"scope": "comment, punctuation.definition.comment",
-			"settings": {
-				"foreground": "#707C74"
-			}
+		"scope": "comment, punctuation.definition.comment",
+		"settings": {
+			"foreground": "#707C74"
+		}
 	}, {
 		"name": "Storage Type",
-			"scope": "keyword.control.from.js, storage.type.function.arrow.js, storage.type.class.js, keyword.operator.expression.typeof.js, keyword.control.trycatch.js, keyword.control.loop.js, keyword.control.switch.js, keyword.operator.new.js, storage.type.js, storage.type.function.js,  keyword.control.conditional.js, keyword.control.flow.js, variable.language.this.js",
-			"settings": {
-				"foreground": "#E03C8A"
-			}
+		"scope": "keyword.control.from.js, storage.type.function.arrow.js, storage.type.class.js, keyword.operator.expression.typeof.js, keyword.control.trycatch.js, keyword.control.loop.js, keyword.control.switch.js, keyword.operator.new.js, storage.type.js, storage.type.function.js,  keyword.control.conditional.js, keyword.control.flow.js, variable.language.this.js",
+		"settings": {
+			"foreground": "#E03C8A"
+		}
 	}, {
 		"name": "Entity Name Function",
-			"scope": "keyword.control.import.js, entity.name.function.js, entity.name.type.js, support.class.builtin.js, support.variable.property.js, entity.name.type.class.js",
-			"settings": {
-				"foreground": "#58B2DC"
-			}
+		"scope": "keyword.control.import.js, entity.name.function.js, entity.name.type.js, support.class.builtin.js, support.variable.property.js, entity.name.type.class.js",
+		"settings": {
+			"foreground": "#58B2DC"
+		}
 	}, {
 		"name": "Html Tag",
-			"scope": "entity.name.tag.block.any.html, entity.name.tag.html, entity.name.tag.inline.any.html, entity.name.tag.css, entity.name.tag.other.html, entity.name.tag.script.html, entity.name.tag.style.html, entity.name.tag.structure.any.html",
-			"settings": {
-				"foreground": "#E03C8A"
-			}
+		"scope": "entity.name.tag.block.any.html, entity.name.tag.html, entity.name.tag.inline.any.html, entity.name.tag.css, entity.name.tag.other.html, entity.name.tag.script.html, entity.name.tag.style.html, entity.name.tag.structure.any.html",
+		"settings": {
+			"foreground": "#E03C8A"
+		}
 	}, {
 		"name": "Support Variable Dom",
-			"scope": "support.variable.dom.js",
-			"settings": {
-				"foreground": "#58B2DC"
-			}
+		"scope": "support.variable.dom.js",
+		"settings": {
+			"foreground": "#58B2DC"
+		}
 	}, {
 		"name": "Support Function",
-			"scope": "support.function.js, support.function.dom.js",
-			"settings": {
-				"foreground": "#58B2DC"
-			}
+		"scope": "support.function.js, support.function.dom.js",
+		"settings": {
+			"foreground": "#58B2DC"
+		}
 	}, {
 		"name": "Keyword Control Export",
-			"scope": "keyword.control.export.js, support.type.object.module.js, keyword.control.default.js",
-			"settings": {
-				"foreground": "#58B2DC",
-				"fontStyle": "underline"
-			}
+		"scope": "keyword.control.export.js, support.type.object.module.js, keyword.control.default.js",
+		"settings": {
+			"foreground": "#58B2DC",
+			"fontStyle": "underline"
+		}
 	}, {
 		"name": "Variable Parameter",
-			"scope": "variable.parameter.js",
-			"settings": {
-				"foreground": "#EEA9A9"
-			}
+		"scope": "variable.parameter.js",
+		"settings": {
+			"foreground": "#EEA9A9"
+		}
 	}, {
 		"name": "Variable Parameter",
-			"scope": "meta.object-literal.key.js, entity.other.attribute-name.html, support.type.property-name.css",
-			"settings": {
-				"foreground": "#EEA9A9"
-			}
+		"scope": "meta.object-literal.key.js, entity.other.attribute-name.html, support.type.property-name.css",
+		"settings": {
+			"foreground": "#EEA9A9"
+		}
 	}, {
 		"name": "Constant Numeric Decimal",
-			"scope": "constant.numeric.decimal.js, entity.other.attribute-name.pseudo-class.css",
-			"settings": {
-				"foreground": "#B481BB"
-			}
+		"scope": "constant.numeric.decimal.js, entity.other.attribute-name.pseudo-class.css",
+		"settings": {
+			"foreground": "#B481BB"
+		}
 	}, {
 		"name": "JSON",
-			"scope": "support.type.property-name.json",
-			"settings": {
-				"foreground": "#EEA9A9"
-			}
-	}
-	]
+		"scope": "support.type.property-name.json",
+		"settings": {
+			"foreground": "#EEA9A9"
+		}
+	}]
 }
