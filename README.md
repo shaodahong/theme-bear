@@ -1,4 +1,4 @@
 # Theme Bear
 A simple theme for vscode
 
-![theme-bear](./bear.png)
+![theme-bear](./bear.gif)
