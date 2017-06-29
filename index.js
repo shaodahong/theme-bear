@@ -56,9 +56,22 @@
 
     var str = (str) => (str + '1');
 
-    import {get, set} from 'angular';
+    import {
+        get,
+        set
+    } from 'angular';
 
     var angular = require('angular');
+
+    var promise = new Promise(function (resolve, reject) {
+        var a = 1;
+
+        if ( a ) {
+            resolve(1)
+        } else {
+            reject(0);
+        }
+    });
 
     var GK = {
         /**
