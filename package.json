@@ -1,9 +1,25 @@
 {
     "name": "theme-bear",
     "displayName": "Theme Bear",
-    "description": "A simple theme",
-    "version": "0.0.1",
+    "description": "A simple and easy to use theme",
+    "version": "0.0.2",
     "publisher": "dahong",
+    "license": "MIT",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/shaodahong/theme-bear"
+	},
+	"bugs": {
+		"url": "https://github.com/shaodahong/theme-bear/issues",
+		"email": "darryshaw@gmail.com"
+	},
+    "keywords": [
+		"icon-theme",
+		"theme",
+		"bear"
+	],
+    "homepage": "https://github.com/shaodahong/theme-bear",
+    "icon": "bear.png",
     "engines": {
         "vscode": "^1.13.0"
     },

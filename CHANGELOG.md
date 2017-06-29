@@ -1,7 +1,10 @@
-# Change Log
-All notable changes to the "dahong" extension will be documented in this file.
+# Theme bear for Visual Studio Code
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+Source from: https://github.com/shaodahong/theme-bear
 
-## [Unreleased]
-- Initial release
+## 0.0.1
+- Start a new theme
+- Complete html, js, css basic style
+
+## FYI
+If you have any suggestions or ideas that can come to my github
