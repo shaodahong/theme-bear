@@ -5,5 +5,4 @@ const config = {
         return 'hello Bear'
     }
 }
-
 module.exports = config
