@@ -1,0 +1,9 @@
+body {
+    background-color: red;
+}
+
+body div {
+    font-size: 12px;
+    color: rebeccapurple;
+    border: 1px solid red;
+}

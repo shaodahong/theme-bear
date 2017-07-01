@@ -32,6 +32,11 @@
                 "label": "Theme Bear",
                 "uiTheme": "vs-dark",
                 "path": "./themes/bear-color-theme.json"
+            },
+            {
+                "label": "Theme Other",
+                "uiTheme": "vs-dark",
+                "path": "./themes/other-theme.json"
             }
         ]
     }
