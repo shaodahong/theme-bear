@@ -1,102 +1,198 @@
-var a1 = 100;
-const a2 = '你好,斗鸡好哦';
-let a3 = [100, 200, '你哈皮', null, undefined];
-var a4 = {
-  json1: 123,
-  json2: '你哈皮哈珀卡帕',
-  json3: {
-    a1: 123,
-    a2: '你好'
-  },
-  json4: function () {
-    return 123;
-  }
+var Webpack = require('webpack')
+var path = require('path')
+var glob = require('glob')
+var HtmlWebpackPlugin = require('html-webpack-plugin')
+var BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
+var ExtractTextPlugin = require("extract-text-webpack-plugin")
+var HtmlWebpackInlineAssetsPlugin = require('html-webpack-inline-assets-plugin')
+
+var isPro = process.env.NODE_ENV === 'production'
+
+/*
+    base config
+*/
+var baseConfig = {
+    entry: {},
+    output: {
+        path: path.resolve(__dirname, '../dist'),
+        publicPath: '',
+        filename: isPro ? 'static/js/[name].[chunkhash].js' : 'static/js/[name].js'
+    },
+    resolve: {
+        extensions: ['*', '.js', '.json'],
+    },
+    module: {
+        rules: [{
+            test: /\.js$/,
+            exclude: /(node_modules)/,
+            use: {
+                loader: 'babel-loader',
+                options: {
+                    presets: ['es2015'],
+                    plugins: ['transform-runtime']
+                }
+            },
+        }, {
+            test: /\.css$/,
+            use: ExtractTextPlugin.extract({
+                fallback: "style-loader",
+                use: "css-loader"
+            })
+        }, {
+            test: /\.json$/,
+            use: 'json-loader'
+        }, {
+            test: /\.styl/,
+            use: ExtractTextPlugin.extract({
+                fallback: 'style-loader',
+                use: [
+                    'css-loader',
+                    'stylus-loader'
+                ]
+            }),
+        }, {
+            test: /\.less/,
+            use: ExtractTextPlugin.extract({
+                fallback: 'style-loader',
+                use: [
+                    'css-loader',
+                    'less-loader'
+                ]
+            }),
+        }, {
+            test: /\.scss/,
+            use: ExtractTextPlugin.extract({
+                fallback: 'style-loader',
+                use: [
+                    'css-loader',
+                    'sass-loader'
+                ]
+            }),
+        }, {
+            test: /\.html$/,
+            use: {
+                loader: 'html-loader',
+            }
+        }, {
+            test: /\.(png|jpg|jpeg|gif|ico)$/i,
+            use: {
+                loader: "url-loader",
+                options: {
+                    limit: 10000,
+                    name: 'static/images/[name].[hash:6].[ext]',
+                    publicPath: '../../',
+                }
+            }
+        }, {
+            test: /\.(svg|woff|woff2|ttf|eot)$/i,
+            use: {
+                loader: "file-loader",
+                options: {
+                    name: 'static/fonts/[name].[hash:6].[ext]',
+                    publicPath: '../../',
+                }
+            }
+        }]
+    },
+    plugins: [
+        new ExtractTextPlugin({
+            filename: 'static/css/[name].[contenthash].css',
+            allChunks: true,
+            disable: isPro ? false : true
+        })
+        // new BundleAnalyzerPlugin()
+        // new Webpack.optimize.ModuleConcatenationPlugin()
+    ]
 }
 
-var func1 = function () {
-  this.a = 100;
-  this.b = '你好'
+/**
+ * 
+ * 
+ * @param {string} globPath 
+ * @returns {object}
+ */
+function getEntries(globPath) {
+    var files = glob.sync(globPath),
+        entries = {};
+
+    files.forEach(function (filepath) {
+        var split = filepath.split('/');
+        var name = split[split.length - 2];
+
+        entries[name] = filepath;
+    });
+
+    return entries;
 }
 
-a4.json4()
+var entries = getEntries('./src/pages/*/index.js');
+var hot = 'webpack-hot-middleware/client?reload=true';
 
-function func2(para1, para2) {
-  document.getElementById('dd')
-  return para1 + para2;
+entries['index'] = './src/index.js'
+
+console.log('  entries', entries)
+
+var entriesLength = Object.keys(entries).length;
+
+// Single entry or multiple entry
+if (entriesLength === 1) {
+    Object.keys(entries).forEach(function (name) {
+        baseConfig.entry[name] = isPro ? entries[name] : [hot, entries[name]];
+        var htmlPlugin = new HtmlWebpackPlugin({
+            filename: name + '.html',
+            template: name === 'index' ? './src/index.html' : './src/pages/' + name + '/index.html',
+            inject: true,
+            chunks: [name, 'vendor', 'manifest'],
+            chunksSortMode: 'dependency',
+        });
+        baseConfig.plugins.push(htmlPlugin);
+    })
+    baseConfig.plugins.push(new Webpack.optimize.CommonsChunkPlugin({
+        name: ['vendor'],
+        minChunks: (module, count) => (
+            module.resource &&
+            module.resource.indexOf('node_modules') >= 0 &&
+            module.resource.match(/\.js$/)
+        )
+    }))
+} else {
+    Object.keys(entries).forEach(function (name) {
+        baseConfig.entry[name] = isPro ? entries[name] : [hot, entries[name]];
+        var htmlPlugin = new HtmlWebpackPlugin({
+            filename: name + '.html',
+            template: name === 'index' ? './src/index.html' : './src/pages/' + name + '/index.html',
+            inject: true,
+            chunks: [name, name + '.vendor', 'vendor', 'manifest'],
+            chunksSortMode: 'dependency',
+        });
+        var commonPlugin = new Webpack.optimize.CommonsChunkPlugin({
+            name: [name + '.vendor'],
+            chunks: [name],
+            minChunks: (module, count) => (
+                module.resource &&
+                module.resource.indexOf('node_modules') >= 0 &&
+                module.resource.match(/\.js$/) &&
+                count === 1
+            )
+        })
+        baseConfig.plugins.push(htmlPlugin, commonPlugin);
+    })
+    baseConfig.plugins.push(new Webpack.optimize.CommonsChunkPlugin({
+        name: ['vendor'],
+        minChunks: (module, count) => (
+            count >= 2
+        )
+    }))
 }
 
-require('angular')
-import angular from 'angular'
-import {
-  http
-} from 'axios'
+baseConfig.plugins.push(new Webpack.optimize.CommonsChunkPlugin({
+    name: ['manifest'],
+    minChunks: Infinity
+}))
+baseConfig.plugins.push(new HtmlWebpackInlineAssetsPlugin({
+    head: 'manifest.',
+    // body: 'manifest.'
+}))
 
-export default a1;
-module.exports = a2;
 
-/^[a-z|0-9]\\#$/.test(a1)
-
-var a5 = new func2();
-
-var time1 = +new Date()
-
-Array.isArray.call(null, a3);
-
-delete a3[0];
-
-let s = Symbol();
-
-var it = makeIterator(['a', 'b']);
-
-it.next() // { value: "a", done: false }
-it.next() // { value: "b", done: false }
-it.next() // { value: undefined, done: true }
-
-function makeIterator(array) {
-  var nextIndex = 0;
-  return {
-    next: function () {
-      return nextIndex < array.length ? {
-        value: array[nextIndex++],
-        done: false
-      } : {
-        value: undefined,
-        done: true
-      };
-    }
-  };
-}
-
-var gen = function* () {
-  var f1 = yield readFile('/etc/fstab');
-  var f2 = yield readFile('/etc/shells');
-  console.log(f1.toString());
-  console.log(f2.toString());
-};
-
-//定义类
-class Point {
-  constructor(x, y) {
-    this.x = x;
-    this.y = y;
-  }
-
-  toString() {
-    return '(' + this.x + ', ' + this.y + ')';
-  }
-}
-
-import {
-  stat,
-  exists,
-  readFile
-} from 'fs';
-
-var buffer = new ArrayBuffer(12);
-
-var x1 = new Int32Array(buffer);
-x1[0] = 1;
-var x2 = new Uint8Array(buffer);
-x2[0] = 2;
-
-x1[0] // 2
+module.exports = baseConfig;

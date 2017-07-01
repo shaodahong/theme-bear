@@ -35,7 +35,7 @@
 		"tab.activeBackground": "#2f2f2f",
 		"tab.activeForeground": "#bcb28d",
 		"tab.border": "#2f2f2f",
-		"tab.inactiveBackground": "#333",
+		"tab.inactiveBackground": "#212121",
 		
 
 		// panel
@@ -62,9 +62,10 @@
 		"list.inactiveSelectionForeground": "#b3b3b3",
 
 		// editorGroupHeader
-		"editorGroupHeader.tabsBackground": "#333"
+		"editorGroupHeader.tabsBackground": "#212121",
 
-
+		// editorWidget
+		"editorWidget.border": "#555"
 
 	},
 	"name": "theme-bear",
@@ -175,7 +176,7 @@
 			"scope": "markup.heading",
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#58b2dc"
+				"foreground": "#E03C8A"
 			}
 		},
 		{
@@ -217,7 +218,7 @@
 		{
 			"scope": "markup.inline.raw",
 			"settings": {
-				"foreground": "#ce9178"
+				"foreground": "#E9A368"
 			}
 		},
 		{
@@ -284,7 +285,7 @@
 		{
 			"scope": "string",
 			"settings": {
-				"foreground": "#bcb28d"
+				"foreground": "#79A8A9"
 			}
 		},
 		{
