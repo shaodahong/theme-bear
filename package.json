@@ -2,7 +2,7 @@
     "name": "theme-bear",
     "displayName": "Theme Bear",
     "description": "A simple and easy to use theme",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "dahong",
     "license": "MIT",
     "repository": {
@@ -19,7 +19,7 @@
 		"bear"
 	],
     "homepage": "https://github.com/shaodahong/theme-bear",
-    "icon": "bear.png",
+    "icon": "icon.png",
     "engines": {
         "vscode": "^1.13.0"
     },

@@ -10,5 +10,8 @@ Source from: https://github.com/shaodahong/theme-bear
 - Changed some base color
 - Multi-language highlight support
 
+## 0.0.3
+- Changed icon
+
 ## FYI
 If you have any suggestions or ideas that can come to my github
