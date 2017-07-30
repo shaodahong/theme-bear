@@ -1,4 +1,8 @@
-# Theme Bear
+<h1 align="center">Theme Bear</h1>
+<p align="center">
+  <img alt="icon" width="20%" src="icon.png">
+</p>
+
 A simple and easy to use theme
 
 <p align="center">
