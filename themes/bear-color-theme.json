@@ -1,57 +1,57 @@
 {
 	"colors": {
 		//editor
-		"editor.background": "#2f2f2f",
+		"editor.background": "#2d2d2d",
 		"editor.foreground": "#bcb28d",
 		"editor.selectionBackground": "#40627C",
 		"editor.selectionHighlightBackground": "#40627C",
 		"editorCursor.foreground": "#bcb28d",
-		"editorGutter.background": "#2f2f2f",
-		"editorHoverWidget.background": "#2f2f2f",
-		"editorIndentGuide.background": "#2f2f2f",
+		"editorGutter.background": "#2d2d2d",
+		"editorHoverWidget.background": "#2d2d2d",
+		"editorIndentGuide.background": "#2d2d2d",
 		"editorLineNumber.foreground": "#666",
 		"editorLink.activeForeground": "#999",
 		"editor.lineHighlightBackground": "#424852",
-		"editor.lineHighlightBorder": "#2f2f2f",
+		"editor.lineHighlightBorder": "#2d2d2d",
 
 		//sideBar
-		"sideBar.background": "#2f2f2f",
+		"sideBar.background": "#2d2d2d",
 		"sideBar.border": "#424852",
 		"sideBar.foreground": "#bcb28d",
-		"sideBarSectionHeader.background": "#2f2f2f",
+		"sideBarSectionHeader.background": "#2d2d2d",
 		"sideBarSectionHeader.foreground": "#999",
 		"sideBarTitle.foreground": "#999",
 
 		// statusBar
-		"statusBar.background": "#2f2f2f",
+		"statusBar.background": "#2d2d2d",
 		"statusBar.border": "#424852",
 		"statusBar.foreground": "#bcb28d",
 		"statusBar.debuggingBackground": "#bcb28d",
-		"statusBar.debuggingForeground": "#2f2f2f",
-		"statusBar.noFolderBackground": "#2f2f2f",
+		"statusBar.debuggingForeground": "#2d2d2d",
+		"statusBar.noFolderBackground": "#2d2d2d",
 		"statusBar.noFolderForeground": "#bcb28d",
 
 		// tab
-		"tab.activeBackground": "#2f2f2f",
+		"tab.activeBackground": "#2d2d2d",
 		"tab.activeForeground": "#bcb28d",
-		"tab.border": "#2f2f2f",
+		"tab.border": "#2d2d2d",
 		"tab.inactiveBackground": "#212121",
 		
 
 		// panel
-		"panel.background": "#2f2f2f",
+		"panel.background": "#2d2d2d",
 
 		// activityBar
-		"activityBar.background": "#2f2f2f",
+		"activityBar.background": "#2d2d2d",
 		"activityBar.border": "#424852",
 		"activityBar.foreground": "#bcb28d",
 		"activityBarBadge.background": "#424852",
 
 		// titleBar
-		"titleBar.activeBackground": "#2f2f2f",
+		"titleBar.activeBackground": "#2d2d2d",
 		"titleBar.activeForeground": "#bcb28d",
 		"titleBar.inactiveBackground": "#bcb28d",
-		"titleBar.inactiveForeground": "#2f2f2f",
+		"titleBar.inactiveForeground": "#2d2d2d",
 
 		// list
 		"list.hoverBackground": "#424852",
