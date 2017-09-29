@@ -134,7 +134,7 @@
 		{
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#E9A368"
+				"foreground": "#E6844F"
 			}
 		},
 		{
@@ -218,7 +218,7 @@
 		{
 			"scope": "markup.inline.raw",
 			"settings": {
-				"foreground": "#E9A368"
+				"foreground": "#E6844F"
 			}
 		},
 		{
@@ -327,7 +327,7 @@
 				"variable.other.less"
 			],
 			"settings": {
-				"foreground": "#E9A368"
+				"foreground": "#E6844F"
 			}
 		},
 		{
@@ -486,7 +486,7 @@
 				"meta.object-literal.key entity.name.function"
 			],
 			"settings": {
-				"foreground": "#E9A368"
+				"foreground": "#E6844F"
 			}
 		},
 		{
