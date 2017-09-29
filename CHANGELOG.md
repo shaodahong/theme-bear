@@ -13,5 +13,10 @@ Source from: https://github.com/shaodahong/theme-bear
 ## 0.0.3
 - Changed icon
 
+## 0.0.3
+- Changed background #2f2f2f->#2d2d2d
+- Changed string #79A8A9->#66A866
+- Changed keyword.operator #d4d4d4->#B9B3B3
+
 ## FYI
 If you have any suggestions or ideas that can come to my github
