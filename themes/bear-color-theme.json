@@ -1,5 +1,15 @@
 {
-	"colors": {
+	"colors": { 
+		
+        // "editorWhitespace.foreground": "#65737e", 
+        // "editorGroup.dropBackground": "#1c1f26",
+        // "tab.inactiveForeground": "#65737f",
+        // "list.focusBackground": "#ffffff",
+        // "input.background": "#ffffff",
+        // "dropdown.background": "#ffffff",
+        // "editorWidget.background": "#ffffff",
+        // "editorHoverWidget.border": "#ffffff",
+		
 		//editor
 		"editor.background": "#2d2d2d",
 		"editor.foreground": "#bcb28d",
@@ -55,6 +65,7 @@
 
 		// list
 		"list.hoverBackground": "#424852",
+		"list.focusBackground": "#707C74",
 		"list.activeSelectionBackground": "#424852",
 		"list.activeSelectionForeground": "#b3b3b3",
 		"list.focusForeground": "#424852",
