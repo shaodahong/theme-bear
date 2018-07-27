@@ -76,7 +76,11 @@
 		"editorGroupHeader.tabsBackground": "#212121",
 
 		// editorWidget
-		"editorWidget.border": "#555"
+		"editorWidget.border": "#555",
+
+		// terminal
+		"terminal.ansiBlue": "#58b2dc",
+		"terminal.ansiRed": "#E03C8A"
 
 	},
 	"name": "theme-bear",
