@@ -5,7 +5,7 @@
 
 A simple and easy to use theme
 
-<p align="center">b
+<p align="center">
   <img alt="VS Code in action" width="80%" src="https://raw.githubusercontent.com/shaodahong/theme-bear/master/bear.png">
 </p>
 
