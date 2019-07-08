@@ -1,0 +1,4 @@
+design
+*.vsix
+.vscode
+code
