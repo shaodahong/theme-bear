@@ -2,6 +2,11 @@
 
 Source from: https://github.com/shaodahong/theme-bear
 
+# 1.1.0
+
+- add error and warning highlight color
+- perf terminal base color is too low
+
 # 1.0.0
 
 - change editor background color for long time coding
