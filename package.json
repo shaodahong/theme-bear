@@ -1,9 +1,9 @@
 {
 	"name": "theme-bear",
-	"displayName": "Theme Bear",
+	"displayName": "Bear Theme",
 	"description": "A simple and easy to use theme",
 	"version": "1.1.0",
-	"publisher": "dahong",
+	"publisher": "shaodahong",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
