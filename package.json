@@ -29,7 +29,7 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Theme Bear",
+				"label": "Bear Theme",
 				"uiTheme": "vs-dark",
 				"path": "./themes/bear-color-theme.json"
 			}
