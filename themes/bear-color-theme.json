@@ -1,5 +1,12 @@
 {
   "colors": {
+    // base
+    "focusBorder": "#40627C",
+    "foreground": "#bcb28d",
+    "selection.background": "#58b2dc",
+    "descriptionForeground": "#bcb28d",
+    "errorForeground": "#E03C8A",
+
     // terminal
     "terminal.ansiBlue": "#58b2dc",
     "terminal.ansiBrightBlue": "#58b2dc",
@@ -25,11 +32,12 @@
     //editor
     "editor.background": "#1f2023",
     "editor.foreground": "#bcb28d",
-    "editor.selectionBackground": "#40627C",
-    "editor.selectionHighlightBackground": "#40627C",
+    "editor.selectionBackground": "#2c5a65",
+    "editor.selectionHighlightBackground": "#2c5a65",
+    "editor.wordHighlightBackground": "#2c5a65",
     "editorCursor.foreground": "#bcb28d",
     "editorGutter.background": "#1f2023",
-    "editorHoverWidget.background": "#1f2023",
+    "editorHoverWidget.background": "#121620",
     "editorIndentGuide.background": "#2f3033",
     "editorLineNumber.foreground": "#666",
     "editorLink.activeForeground": "#999",
@@ -37,6 +45,12 @@
     "editor.lineHighlightBorder": "#1f2023",
     "editorWarning.foreground": "#e6844f",
     "editorError.foreground": "#E03C8A",
+    // "editor.findMatchHighlightBorder": "#bcb28d",
+    "editor.findMatchHighlightBackground": "#2c5a65",
+    // "editor.findRangeHighlightBorder": "#bcb28d",
+    "editor.findRangeHighlightBackground": "#2c5a65",
+    "editor.findMatchBorder": "#bcb28d66",
+    // "editor.findMatchBackground": "#2c5a65",
 
     //sideBar
     "sideBar.background": "#1f2023",
@@ -60,6 +74,9 @@
     "tab.activeForeground": "#bcb28d",
     "tab.inactiveBackground": "#212121",
     "tab.activeBorder": "#E6844F",
+    "tab.inactiveForeground": "#bcb28d66",
+    // "tab.activeModifiedBorder": "#ff0000",
+    // "tab.inactiveModifiedBorder": "#ff0000",
 
     // panel
     "panel.background": "#1f2023",
@@ -74,18 +91,19 @@
     "titleBar.activeBackground": "#1f2023",
     "titleBar.activeForeground": "#bcb28d",
     "titleBar.inactiveBackground": "#bcb28d",
-    "titleBar.inactiveForeground": "#1f2023",
+    "titleBar.inactiveForeground": "#707C74",
 
     // list
-    "list.hoverBackground": "#424852",
+    "list.hoverBackground": "#40627C66",
     "list.focusBackground": "#707C74",
-    "list.activeSelectionBackground": "#424852",
-    "list.activeSelectionForeground": "#b3b3b3",
+    "list.activeSelectionBackground": "#40627C66",
+    "list.activeSelectionForeground": "#bcb28d",
     "list.focusForeground": "#bcb28d",
-    "list.inactiveSelectionBackground": "#424852",
-    "list.inactiveSelectionForeground": "#b3b3b3",
+    "list.inactiveSelectionBackground": "#40627C44",
+    "list.inactiveSelectionForeground": "#bcb28d",
     "list.warningForeground": "#e6844f",
     "list.errorForeground": "#E03C8A",
+    "list.hoverForeground": "#bcb28d",
 
     // editorGroupHeader
     "editorGroupHeader.tabsBackground": "#212121",
@@ -93,11 +111,12 @@
     // editorWidget
     "editorWidget.border": "#555",
 
-    // new
-
-    // 匹配的括号
+    // editorBracketMatch
     "editorBracketMatch.background": "#40627C",
-    "editorBracketMatch.border": "#40627C"
+    "editorBracketMatch.border": "#40627C",
+
+    // git
+    "gitDecoration.ignoredResourceForeground": "#707C74"
   },
   "name": "theme-bear",
   "tokenColors": [

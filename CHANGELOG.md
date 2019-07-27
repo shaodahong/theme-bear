@@ -2,6 +2,10 @@
 
 Source from: https://github.com/shaodahong/theme-bear
 
+# 1.2.0
+- add base color
+- fix some highlight friendly
+
 # 1.1.0
 
 - add error and warning highlight color
