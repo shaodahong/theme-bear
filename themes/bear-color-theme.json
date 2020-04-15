@@ -68,6 +68,8 @@
     "statusBar.debuggingForeground": "#222222",
     "statusBar.noFolderBackground": "#222222",
     "statusBar.noFolderForeground": "#bcb28d",
+    "statusBarItem.remoteBackground": "#bcb28d",
+    "statusBarItem.remoteForeground": "#222222",
 
     // tab
     // "tab.activeBackground": "#222222",
@@ -106,8 +108,6 @@
     "list.errorForeground": "#E03C8A",
     "list.hoverForeground": "#bcb28d",
     "list.highlightForeground": "#93a1a1",
-    
-    
 
     // editorGroupHeader
     "editorGroupHeader.tabsBackground": "#212121",
