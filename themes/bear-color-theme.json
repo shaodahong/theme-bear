@@ -625,6 +625,60 @@
       "settings": {
         "foreground": "#bcb28d"
       }
+    },
+    // python
+    {
+      "scope": [
+        "meta.function-call.generic.python",
+        "meta.function-call.python",
+        "keyword.operator.logical.python",
+        "constant.other.caps.python",
+        "entity.other.inherited-class.python"
+      ],
+      "settings": {
+        "foreground": "#58b2dc"
+      }
+    },
+    {
+      "scope": [
+        "meta.function-call.arguments.python",
+        "meta.item-access.python",
+        "punctuation.definition.decorator.python"
+      ],
+      "settings": {
+        "foreground": "#E6844F"
+      }
+    },
+    {
+      "scope": [
+        "storage.type.function.python",
+        "storage.type.class.python",
+        "variable.language.special.self.python",
+        "keyword.control.flow.python"
+      ],
+      "settings": {
+        "foreground": "#E03C8A"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.separator.arguments.python",
+        "punctuation.separator.element.python",
+        "punctuation.separator.period.python",
+        "keyword.operator.assignment.python",
+        "keyword.operator.python",
+        "meta.attribute.python"
+      ],
+      "settings": {
+        "foreground": "#bcb28d"
+      }
+    },
+
+    {
+      "scope": ["meta.structure.dictionary.key.python"],
+      "settings": {
+        "foreground": "#9cdcfe"
+      }
     }
   ]
 }
