@@ -108,6 +108,8 @@
 
     // editorWidget
     "editorWidget.border": "#555",
+    "editorWidget.background": "#282b31",
+    "editorSuggestWidget.selectedBackground": "#2A5A66",
 
     // editorBracketMatch
     "editorBracketMatch.background": "#40627C",
