@@ -303,12 +303,7 @@
         "foreground": "#b5cea8"
       }
     },
-    {
-      "scope": "meta.structure.dictionary.key.python",
-      "settings": {
-        "foreground": "#9cdcfe"
-      }
-    },
+
     {
       "scope": "meta.diff.header",
       "settings": {
@@ -395,11 +390,9 @@
     },
     {
       "scope": [
-        // "keyword.operator.new",
         "keyword.operator.expression",
         "keyword.operator.cast",
-        "keyword.operator.sizeof",
-        "keyword.operator.logical.python"
+        "keyword.operator.sizeof"
       ],
       "settings": {
         "foreground": "#58b2dc"
@@ -447,7 +440,8 @@
       "name": "this.self",
       "scope": "variable.language",
       "settings": {
-        "foreground": "#58B2DC"
+        "foreground": "#E03C8A",
+        "fontStyle": "italic"
       }
     },
     {
@@ -551,7 +545,6 @@
         "foreground": "#bcb28d"
       }
     },
-    // new
     {
       "scope": [
         "support.class",
@@ -626,6 +619,7 @@
         "foreground": "#bcb28d"
       }
     },
+
     // python
     {
       "scope": [
@@ -682,3 +676,4 @@
     }
   ]
 }
+//
