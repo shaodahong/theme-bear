@@ -615,6 +615,16 @@
       "settings": {
         "foreground": "#DDA52D"
       }
+    },
+    // javascript
+    {
+      "scope": [
+        "keyword.operator.accessor.js",
+        "keyword.operator.assignment.js"
+      ],
+      "settings": {
+        "foreground": "#bcb28d"
+      }
     }
   ]
 }
