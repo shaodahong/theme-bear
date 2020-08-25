@@ -87,7 +87,7 @@
     // titleBar
     "titleBar.activeBackground": "#1f2023",
     "titleBar.activeForeground": "#bcb28d",
-    "titleBar.inactiveBackground": "#bcb28d",
+    "titleBar.inactiveBackground": "#31343c",
     "titleBar.inactiveForeground": "#707C74",
 
     // list
