@@ -50,11 +50,12 @@
 
     //sideBar
     "sideBar.background": "#1f2023",
-    "sideBar.border": "#424852",
-    "sideBar.foreground": "#bcb28d",
+    "sideBar.border": "#1F2023",
+    "sideBar.foreground": "#707C74",
     "sideBarSectionHeader.background": "#1f2023",
     "sideBarSectionHeader.foreground": "#999",
     "sideBarTitle.foreground": "#999",
+    "scrollbar.shadow": "#1F2023",
 
     // statusBar
     "statusBar.background": "#1f2023",
