@@ -91,12 +91,12 @@
     "titleBar.inactiveForeground": "#707C74",
 
     // list
-    "list.hoverBackground": "#40627C66",
-    "list.focusBackground": "#40627C66",
-    "list.activeSelectionBackground": "#40627C66",
+    "list.hoverBackground": "#2A5A66",
+    "list.focusBackground": "#2A5A66",
+    "list.activeSelectionBackground": "#282b31",
     "list.activeSelectionForeground": "#bcb28d",
     "list.focusForeground": "#bcb28d",
-    "list.inactiveSelectionBackground": "#40627C66",
+    "list.inactiveSelectionBackground": "#282b31",
     "list.inactiveSelectionForeground": "#bcb28d",
     "list.warningForeground": "#e6844f",
     "list.errorForeground": "#E03C8A",
