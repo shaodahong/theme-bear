@@ -1,7 +1,7 @@
 {
   "colors": {
     // base
-    "focusBorder": "#40627C",
+    "focusBorder": "#1F2023",
     "foreground": "#bcb28d",
     "selection.background": "#58b2dc",
     "descriptionForeground": "#bcb28d",
@@ -105,8 +105,6 @@
     "list.errorForeground": "#E03C8A",
     "list.hoverForeground": "#bcb28d",
     "list.highlightForeground": "#93a1a1",
-    
-    
 
     // editorGroupHeader
     "editorGroupHeader.tabsBackground": "#212121",
