@@ -72,8 +72,8 @@
     "tab.inactiveBackground": "#212121",
     "tab.activeBorder": "#E6844F",
     "tab.inactiveForeground": "#bcb28d66",
-    // "tab.activeModifiedBorder": "#ff0000",
-    // "tab.inactiveModifiedBorder": "#ff0000",
+    "tab.hoverBackground": "#282b31",
+    "tab.border": "#1F2023",
 
     // panel
     "panel.background": "#1f2023",
