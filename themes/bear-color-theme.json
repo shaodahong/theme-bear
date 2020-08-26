@@ -673,6 +673,21 @@
       "settings": {
         "foreground": "#9cdcfe"
       }
+    },
+    {
+      "scope": ["string.quoted.docstring.multi.python"],
+      "settings": {
+        "foreground": "#707C74"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.string.begin.python",
+        "punctuation.definition.string.end.python"
+      ],
+      "settings": {
+        "foreground": "#66A866"
+      }
     }
   ]
 }
