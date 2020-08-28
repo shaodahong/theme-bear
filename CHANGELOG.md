@@ -2,6 +2,10 @@
 
 Source from: https://github.com/shaodahong/theme-bear
 
+# 2.0.0
+- Minor colors update for the main theme
+- Support for Python
+
 # 1.2.1
 - fix list search match background color
 
