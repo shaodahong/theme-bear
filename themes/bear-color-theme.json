@@ -637,7 +637,8 @@
       "scope": [
         "meta.function-call.arguments.python",
         "meta.item-access.python",
-        "punctuation.definition.decorator.python"
+        "punctuation.definition.decorator.python",
+        "variable.language.special.self.python"
       ],
       "settings": {
         "foreground": "#E6844F"
@@ -647,7 +648,6 @@
       "scope": [
         "storage.type.function.python",
         "storage.type.class.python",
-        "variable.language.special.self.python",
         "keyword.control.flow.python"
       ],
       "settings": {
