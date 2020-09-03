@@ -7,6 +7,7 @@ A simple and friendly vscode theme.
 
 - [x] For long time coding.
 - [x] Friendly highlight.
+- [x] Support for Python.
 
 <p align="center">
   <img alt="bear-theme-snap" width="80%" src="https://raw.githubusercontent.com/shaodahong/theme-bear/master/bear-theme-snap.png">
