@@ -692,7 +692,19 @@
       "settings": {
         "foreground": "#66A866"
       }
+    },
+    // new js
+    {
+      "scope": ["support.type.object.dom.js", "keyword.operator.arithmetic.js"],
+      "settings": {
+        "foreground": "#bcb28d"
+      }
+    },
+    {
+      "scope": ["entity.name.type.instance.js"],
+      "settings": {
+        "foreground": "#58b2dc"
+      }
     }
   ]
 }
-//
