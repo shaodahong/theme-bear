@@ -440,7 +440,8 @@
       "name": "this.self",
       "scope": "variable.language",
       "settings": {
-        "foreground": "#E03C8A",
+        // "foreground": "#E03C8A",
+        "foreground": "#bcb28d",
         "fontStyle": "italic"
       }
     },
@@ -693,9 +694,9 @@
         "foreground": "#66A866"
       }
     },
-    // new js
+    // new
     {
-      "scope": ["support.type.object.dom.js", "keyword.operator.arithmetic.js"],
+      "scope": ["keyword.operator.arithmetic.js"],
       "settings": {
         "foreground": "#bcb28d"
       }
