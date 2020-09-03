@@ -627,7 +627,10 @@
         "meta.function-call.python",
         "keyword.operator.logical.python",
         "constant.other.caps.python",
-        "entity.other.inherited-class.python"
+        "entity.other.inherited-class.python",
+        "variable.language.special.self.python",
+        "variable.parameter.function.language.special.self.python",
+        "variable.parameter.function.language.python"
       ],
       "settings": {
         "foreground": "#58b2dc"
@@ -638,7 +641,8 @@
         "meta.function-call.arguments.python",
         "meta.item-access.python",
         "punctuation.definition.decorator.python",
-        "variable.language.special.self.python"
+        "entity.name.function.python",
+        "support.function.magic.python"
       ],
       "settings": {
         "foreground": "#E6844F"
@@ -646,9 +650,9 @@
     },
     {
       "scope": [
-        "storage.type.function.python",
         "storage.type.class.python",
-        "keyword.control.flow.python"
+        "keyword.control.flow.python",
+        "storage.type.function.python"
       ],
       "settings": {
         "foreground": "#E03C8A"
