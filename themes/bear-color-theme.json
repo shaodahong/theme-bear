@@ -614,12 +614,30 @@
     {
       "scope": [
         "keyword.operator.accessor.js",
-        "keyword.operator.assignment.js"
+        "keyword.operator.assignment.js",
+        "keyword.operator.arithmetic.js"
       ],
       "settings": {
         "foreground": "#bcb28d"
       }
     },
+    {
+      "scope": ["entity.name.type.instance.js"],
+      "settings": {
+        "foreground": "#58b2dc"
+      }
+    },
+    // {
+    //   "scope": [
+    //     "keyword.control.conditional.ts",
+    //     "keyword.control.flow.ts",
+    //     "keyword.control.conditional.js",
+    //     "keyword.control.flow.js"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#E03C8A"
+    //   }
+    // }
 
     // python
     {
@@ -629,9 +647,8 @@
         "keyword.operator.logical.python",
         "constant.other.caps.python",
         "entity.other.inherited-class.python",
-        "variable.language.special.self.python",
-        "variable.parameter.function.language.special.self.python",
-        "variable.parameter.function.language.python"
+        "variable.parameter.function.language.python",
+        "keyword.control.flow.python"
       ],
       "settings": {
         "foreground": "#58b2dc"
@@ -643,7 +660,8 @@
         "meta.item-access.python",
         "punctuation.definition.decorator.python",
         "entity.name.function.python",
-        "support.function.magic.python"
+        "support.function.magic.python",
+        "support.type.exception.python"
       ],
       "settings": {
         "foreground": "#E6844F"
@@ -652,8 +670,9 @@
     {
       "scope": [
         "storage.type.class.python",
-        "keyword.control.flow.python",
-        "storage.type.function.python"
+        "storage.type.function.python",
+        "variable.language.special.self.python",
+        "variable.parameter.function.language.special.self.python"
       ],
       "settings": {
         "foreground": "#E03C8A"
@@ -692,19 +711,6 @@
       ],
       "settings": {
         "foreground": "#66A866"
-      }
-    },
-    // new
-    {
-      "scope": ["keyword.operator.arithmetic.js"],
-      "settings": {
-        "foreground": "#bcb28d"
-      }
-    },
-    {
-      "scope": ["entity.name.type.instance.js"],
-      "settings": {
-        "foreground": "#58b2dc"
       }
     }
   ]
