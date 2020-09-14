@@ -27,7 +27,7 @@
     "Themes"
   ],
   "scripts": {
-    "prepublishOnly": "np --no-publish && vsce publish"
+    "prepublishOnly": "np --no-publish --yolo && vsce publish"
   },
   "contributes": {
     "themes": [
