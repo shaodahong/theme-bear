@@ -91,17 +91,18 @@
     "titleBar.inactiveForeground": "#707C74",
 
     // list
-    "list.hoverBackground": "#2A5A66",
-    "list.focusBackground": "#2A5A66",
-    "list.activeSelectionBackground": "#282b31",
+    "list.hoverBackground": "#3a3e47",
+    "list.focusBackground": "#243d46",
+    "list.activeSelectionBackground": "#243d46",
     "list.activeSelectionForeground": "#bcb28d",
     "list.focusForeground": "#bcb28d",
-    "list.inactiveSelectionBackground": "#282b31",
+    "list.inactiveSelectionBackground": "#243d46",
     "list.inactiveSelectionForeground": "#bcb28d",
     "list.warningForeground": "#e6844f",
     "list.errorForeground": "#E03C8A",
     "list.hoverForeground": "#bcb28d",
     "list.highlightForeground": "#93a1a1",
+    "list.inactiveFocusBackground": "#243d46",
 
     // editorGroupHeader
     "editorGroupHeader.tabsBackground": "#212121",
@@ -109,14 +110,14 @@
     // editorWidget
     "editorWidget.border": "#555",
     "editorWidget.background": "#282b31",
-    "editorSuggestWidget.selectedBackground": "#2A5A66",
+    "editorSuggestWidget.selectedBackground": "#243d46",
 
     // editorBracketMatch
     "editorBracketMatch.background": "#ffffff00",
     "editorBracketMatch.border": "#886b67",
 
     // git
-    "gitDecoration.ignoredResourceForeground": "#707C74"
+    "gitDecoration.ignoredResourceForeground": "#505f55"
   },
   "name": "theme-bear",
   "tokenColors": [
