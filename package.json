@@ -1,43 +1,49 @@
 {
-	"name": "theme-bear",
-	"displayName": "Bear Theme",
-	"description": "A simple and easy to use theme",
-	"version": "2.0.0",
-	"publisher": "dahong",
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/shaodahong/theme-bear"
-	},
-	"bugs": {
-		"url": "https://github.com/shaodahong/theme-bear/issues",
-		"email": "darryshaw@gmail.com"
-	},
-	"keywords": [
-		"icon-theme",
-		"theme",
-		"bear"
-	],
-	"homepage": "https://github.com/shaodahong/theme-bear",
-	"icon": "icon.png",
-	"engines": {
-		"vscode": "^1.13.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "Bear Theme",
-				"uiTheme": "vs-dark",
-				"path": "./themes/bear-color-theme.json"
-			}
-		]
-	},
-	"__metadata": {
-		"id": "e2fafe48-b7d2-4403-9711-327bcf332644",
-		"publisherDisplayName": "dahong",
-		"publisherId": "6c823c35-2b87-4fd2-80b1-fcb15cacef33"
-	}
+  "name": "theme-bear",
+  "displayName": "Bear Theme",
+  "description": "A simple and easy to use theme",
+  "version": "2.0.0",
+  "publisher": "dahong",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaodahong/theme-bear"
+  },
+  "bugs": {
+    "url": "https://github.com/shaodahong/theme-bear/issues",
+    "email": "darryshaw@gmail.com"
+  },
+  "keywords": [
+    "icon-theme",
+    "theme",
+    "bear"
+  ],
+  "homepage": "https://github.com/shaodahong/theme-bear",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.13.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "prepublishOnly": "np --no-publish && vsce publish"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Bear Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bear-color-theme.json"
+      }
+    ]
+  },
+  "__metadata": {
+    "id": "e2fafe48-b7d2-4403-9711-327bcf332644",
+    "publisherDisplayName": "dahong",
+    "publisherId": "6c823c35-2b87-4fd2-80b1-fcb15cacef33"
+  },
+  "devDependencies": {
+    "np": "^6.5.0"
+  }
 }
