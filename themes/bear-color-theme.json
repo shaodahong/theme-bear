@@ -52,6 +52,7 @@
     "sideBar.background": "#1f2023",
     "sideBar.border": "#1F2023",
     "sideBar.foreground": "#707c74",
+    // "sideBar.foreground": "#797B80",
     "sideBarSectionHeader.background": "#1f2023",
     "sideBarSectionHeader.foreground": "#999",
     "sideBarTitle.foreground": "#999",
@@ -72,6 +73,7 @@
     "tab.inactiveBackground": "#212121",
     "tab.activeBorder": "#E6844F",
     "tab.inactiveForeground": "#bcb28d66",
+    // "tab.inactiveForeground": "#6f7176",
     "tab.hoverBackground": "#282b31",
     "tab.border": "#1F2023",
 
