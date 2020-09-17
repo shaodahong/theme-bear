@@ -118,7 +118,7 @@
     "editorBracketMatch.border": "#886b67",
 
     // git
-    // "gitDecoration.ignoredResourceForeground": "#707C74",
+    "gitDecoration.ignoredResourceForeground": "#707C74",
     "gitDecoration.modifiedResourceForeground": "#bcb28d"
   },
   "name": "theme-bear",
