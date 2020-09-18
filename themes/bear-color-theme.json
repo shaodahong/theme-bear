@@ -716,6 +716,12 @@
       "settings": {
         "foreground": "#66A866"
       }
+    },
+    {
+      "scope": ["storage.type.string.python"],
+      "settings": {
+        "foreground": "#DDA52D"
+      }
     }
   ]
 }
