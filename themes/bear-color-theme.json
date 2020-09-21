@@ -718,7 +718,10 @@
       }
     },
     {
-      "scope": ["storage.type.string.python"],
+      "scope": [
+        "storage.type.string.python",
+        "keyword.operator.unpacking.parameter.python"
+      ],
       "settings": {
         "foreground": "#DDA52D"
       }
