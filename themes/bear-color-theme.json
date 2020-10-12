@@ -725,6 +725,13 @@
       "settings": {
         "foreground": "#DDA52D"
       }
+    },
+    // dart
+    {
+      "scope": ["variable.language.dart", "keyword.other.import.dart"],
+      "settings": {
+        "foreground": "#58b2dc"
+      }
     }
   ]
 }
