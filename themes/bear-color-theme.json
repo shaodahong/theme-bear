@@ -38,7 +38,7 @@
     "editorCursor.foreground": "#bcb28d",
     "editorGutter.background": "#1f2023",
     "editorIndentGuide.background": "#2f3033",
-    "editorIndentGuide.activeBackground": "#686870",
+    "editorIndentGuide.activeBackground": "#5f5f66",
     "editorLineNumber.foreground": "#43474c",
     "editorLink.activeForeground": "#999",
     "editor.lineHighlightBackground": "#282b31",
