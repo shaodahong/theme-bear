@@ -626,6 +626,12 @@
       }
     },
     {
+      "scope": ["string.unquoted.js"],
+      "settings": {
+        "foreground": "#E6844F"
+      }
+    },
+    {
       "scope": ["entity.name.type.instance.js"],
       "settings": {
         "foreground": "#58b2dc"
