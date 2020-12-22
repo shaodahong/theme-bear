@@ -679,14 +679,19 @@
       }
     },
     {
+      "scope": ["storage.type.class.python", "storage.type.function.python"],
+      "settings": {
+        "foreground": "#E03C8A"
+      }
+    },
+    {
       "scope": [
-        "storage.type.class.python",
-        "storage.type.function.python",
         "variable.language.special.self.python",
         "variable.parameter.function.language.special.self.python"
       ],
       "settings": {
-        "foreground": "#E03C8A"
+        "foreground": "#E6844F",
+        "fontStyle": "italic"
       }
     },
     {
