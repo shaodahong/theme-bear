@@ -672,7 +672,8 @@
         "entity.name.function.python",
         "support.function.magic.python",
         "support.type.exception.python",
-        "constant.character.format.placeholder.other.python"
+        "constant.character.format.placeholder.other.python",
+        "storage.type.string.python"
       ],
       "settings": {
         "foreground": "#E6844F"
@@ -730,10 +731,7 @@
       }
     },
     {
-      "scope": [
-        "storage.type.string.python",
-        "keyword.operator.unpacking.parameter.python"
-      ],
+      "scope": ["keyword.operator.unpacking.parameter.python"],
       "settings": {
         "foreground": "#DDA52D"
       }
