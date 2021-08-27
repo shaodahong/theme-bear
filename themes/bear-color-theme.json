@@ -120,8 +120,8 @@
     "editorBracketMatch.border": "#886b67",
 
     // git
-    "gitDecoration.ignoredResourceForeground": "#707C74",
-    "gitDecoration.modifiedResourceForeground": "#bcb28d"
+    "gitDecoration.ignoredResourceForeground": "#6a6653",
+    "gitDecoration.modifiedResourceForeground": "#f69968"
   },
   "name": "theme-bear",
   "tokenColors": [
