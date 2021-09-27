@@ -1,7 +1,7 @@
 {
   "colors": {
     // base
-    "focusBorder": "#1F2023",
+    "focusBorder": "#1f2023",
     "foreground": "#bcb28d",
     "selection.background": "#58b2dc",
     "descriptionForeground": "#bcb28d",
@@ -52,16 +52,16 @@
     //sideBar
     "sideBar.background": "#1f2023",
     "sideBar.border": "#1f2023",
-    "sideBar.foreground": "#707c74",
+    "sideBar.foreground": "#79867e",
     // "sideBar.foreground": "#797B80",
     "sideBarSectionHeader.background": "#1f2023",
     "sideBarSectionHeader.foreground": "#999",
     "sideBarTitle.foreground": "#999",
-    "scrollbar.shadow": "#1F2023",
+    "scrollbar.shadow": "#1f2023",
 
     // statusBar
     "statusBar.background": "#1f2023",
-    "statusBar.border": "#1F2023",
+    "statusBar.border": "#1f2023",
     "statusBar.foreground": "#bcb28d",
     "statusBar.debuggingBackground": "#282b31",
     "statusBar.debuggingForeground": "#bcb28d",
@@ -71,19 +71,19 @@
     // tab
     "tab.activeBackground": "#1f2023",
     "tab.activeForeground": "#bcb28d",
-    "tab.inactiveBackground": "#212121",
+    "tab.inactiveBackground": "#1f2023",
     "tab.activeBorder": "#E6844F",
-    "tab.inactiveForeground": "#bcb28d66",
+    "tab.inactiveForeground": "#696455",
     // "tab.inactiveForeground": "#6f7176",
     "tab.hoverBackground": "#282b31",
-    "tab.border": "#1F2023",
+    "tab.border": "#1f2023",
 
     // panel
     "panel.background": "#1f2023",
 
     // activityBar
     "activityBar.background": "#1f2023",
-    "activityBar.border": "#1F2023",
+    "activityBar.border": "#1f2023",
     "activityBar.foreground": "#bcb28d",
     "activityBarBadge.background": "#424852",
 
@@ -108,7 +108,7 @@
     "quickInputList.focusBackground": "#3A3E47",
 
     // editorGroupHeader
-    "editorGroupHeader.tabsBackground": "#212121",
+    "editorGroupHeader.tabsBackground": "#1f2023",
 
     // editorWidget
     "editorWidget.border": "#555",
@@ -120,7 +120,7 @@
     "editorBracketMatch.border": "#886b67",
 
     // git
-    "gitDecoration.ignoredResourceForeground": "#6a6653",
+    "gitDecoration.ignoredResourceForeground": "#545d57",
     "gitDecoration.modifiedResourceForeground": "#f69968"
   },
   "name": "theme-bear",
