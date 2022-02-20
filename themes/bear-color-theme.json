@@ -80,6 +80,7 @@
 
     // panel
     "panel.background": "#1f2023",
+    "panel.border": "#5e6173",
 
     // activityBar
     "activityBar.background": "#1f2023",
