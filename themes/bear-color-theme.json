@@ -42,7 +42,7 @@
     "editorLineNumber.foreground": "#43474c",
     "editorLink.activeForeground": "#999",
     "editor.lineHighlightBackground": "#282b31",
-    "editor.lineHighlightBorder": "#1f2023",
+    "editor.lineHighlightBorder": "#00000000",
     "editorWarning.foreground": "#e6844f",
     "editorError.foreground": "#E03C8A",
     "editor.findMatchHighlightBackground": "#2c5a65",
