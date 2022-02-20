@@ -52,7 +52,7 @@
     //sideBar
     "sideBar.background": "#1f2023",
     "sideBar.border": "#1f2023",
-    "sideBar.foreground": "#79867e",
+    "sideBar.foreground": "#838f88",
     // "sideBar.foreground": "#797B80",
     "sideBarSectionHeader.background": "#1f2023",
     "sideBarSectionHeader.foreground": "#999",
