@@ -517,7 +517,7 @@
     {
       "scope": "keyword.operator.assignment",
       "settings": {
-        "foreground": "#bcb28d"
+        "foreground": "#47CAAF"
       }
     },
     {
@@ -620,7 +620,7 @@
     {
       "scope": [
         "keyword.operator.accessor.js",
-        "keyword.operator.assignment.js",
+        // "keyword.operator.assignment.js",
         "keyword.operator.arithmetic.js"
       ],
       "settings": {
@@ -654,13 +654,12 @@
     // python
     {
       "scope": [
-        "meta.function-call.generic.python",
         "meta.function-call.python",
         "keyword.operator.logical.python",
-        "constant.other.caps.python",
         "entity.other.inherited-class.python",
         "variable.parameter.function.language.python",
-        "keyword.control.flow.python"
+        "keyword.control.flow.python",
+        "variable.parameter.function-call.python"
       ],
       "settings": {
         "foreground": "#58b2dc"
@@ -668,7 +667,7 @@
     },
     {
       "scope": [
-        "meta.function-call.arguments.python",
+        "meta.function-call.generic.python",
         "meta.item-access.python",
         "punctuation.definition.decorator.python",
         "entity.name.function.python",
@@ -682,7 +681,11 @@
       }
     },
     {
-      "scope": ["storage.type.class.python", "storage.type.function.python"],
+      "scope": [
+        "storage.type.class.python",
+        "storage.type.function.python",
+        "support.type.python"
+      ],
       "settings": {
         "foreground": "#E03C8A"
       }
@@ -693,7 +696,7 @@
         "variable.parameter.function.language.special.self.python"
       ],
       "settings": {
-        "foreground": "#E6844F",
+        "foreground": "#E03C8A",
         "fontStyle": "italic"
       }
     },
@@ -702,9 +705,10 @@
         "punctuation.separator.arguments.python",
         "punctuation.separator.element.python",
         "punctuation.separator.period.python",
-        "keyword.operator.assignment.python",
         "keyword.operator.python",
-        "meta.attribute.python"
+        "meta.attribute.python",
+        "constant.other.caps.python",
+        "meta.function-call.arguments.python"
       ],
       "settings": {
         "foreground": "#bcb28d"
@@ -733,7 +737,16 @@
       }
     },
     {
-      "scope": ["keyword.operator.unpacking.parameter.python"],
+      "scope": ["keyword.operator.assignment.python"],
+      "settings": {
+        "foreground": "#47CAAF"
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator.unpacking.parameter.python",
+        "constant.language.python"
+      ],
       "settings": {
         "foreground": "#DDA52D"
       }
