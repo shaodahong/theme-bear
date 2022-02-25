@@ -634,7 +634,11 @@
       }
     },
     {
-      "scope": ["entity.name.type.instance.js", "variable.language.this.js"],
+      "scope": [
+        "entity.name.type.instance.js",
+        "variable.language.this.js",
+        "variable.language.self.js"
+      ],
       "settings": {
         "foreground": "#58b2dc"
       }
