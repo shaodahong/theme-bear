@@ -517,7 +517,7 @@
     {
       "scope": "keyword.operator.assignment",
       "settings": {
-        "foreground": "#47CAAF"
+        "foreground": "#bcb28d"
       }
     },
     {
