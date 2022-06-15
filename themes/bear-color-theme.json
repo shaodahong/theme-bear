@@ -627,18 +627,20 @@
     {
       "scope": [
         "keyword.operator.accessor.js",
-        // "keyword.operator.assignment.js",
+        "keyword.operator.assignment.js",
         "keyword.operator.arithmetic.js"
       ],
       "settings": {
-        "foreground": "#bcb28d"
+        // "foreground": "#bcb28d"
+        "foreground": "#47CAAF"
       }
     },
     {
       "scope": [
         "string.unquoted.js",
-        "variable.other.property.js",
-        "variable.other.readwrite.js"
+        // "variable.other.property.js",
+        "variable.other.readwrite.js",
+        "variable.other.object.js"
       ],
       "settings": {
         "foreground": "#E6844F"
@@ -655,15 +657,9 @@
       }
     },
     {
-      "scope": ["support.type.object.dom.js", "variable.other.object.js"],
+      "scope": ["support.type.object.dom.js"],
       "settings": {
         "foreground": "#bcb28d"
-      }
-    },
-    {
-      "scope": ["keyword.operator.assignment.js"],
-      "settings": {
-        "foreground": "#47CAAF"
       }
     },
 
