@@ -622,6 +622,7 @@
         "foreground": "#DDA52D"
       }
     },
+
     // javascript
     {
       "scope": [
@@ -634,7 +635,11 @@
       }
     },
     {
-      "scope": ["string.unquoted.js"],
+      "scope": [
+        "string.unquoted.js",
+        "variable.other.property.js",
+        "variable.other.readwrite.js"
+      ],
       "settings": {
         "foreground": "#E6844F"
       }
@@ -650,9 +655,15 @@
       }
     },
     {
-      "scope": ["support.type.object.dom.js"],
+      "scope": ["support.type.object.dom.js", "variable.other.object.js"],
       "settings": {
         "foreground": "#bcb28d"
+      }
+    },
+    {
+      "scope": ["keyword.operator.assignment.js"],
+      "settings": {
+        "foreground": "#47CAAF"
       }
     },
 
