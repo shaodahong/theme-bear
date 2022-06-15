@@ -522,7 +522,8 @@
     {
       "scope": "keyword.operator.assignment",
       "settings": {
-        "foreground": "#bcb28d"
+        // "foreground": "#bcb28d"
+        "foreground": "#47CAAF"
       }
     },
     {
