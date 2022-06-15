@@ -643,17 +643,12 @@
         "foreground": "#58b2dc"
       }
     },
-    // {
-    //   "scope": [
-    //     "keyword.control.conditional.ts",
-    //     "keyword.control.flow.ts",
-    //     "keyword.control.conditional.js",
-    //     "keyword.control.flow.js"
-    //   ],
-    //   "settings": {
-    //     "foreground": "#E03C8A"
-    //   }
-    // }
+    {
+      "scope": ["support.type.object.dom.js"],
+      "settings": {
+        "foreground": "#bcb28d"
+      }
+    },
 
     // python
     {
