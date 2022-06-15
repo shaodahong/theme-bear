@@ -657,7 +657,7 @@
       }
     },
     {
-      "scope": ["support.type.object.dom.js"],
+      "scope": ["support.type.object.dom.js", "support.type.object.console.js"],
       "settings": {
         "foreground": "#bcb28d"
       }
