@@ -520,7 +520,7 @@
       }
     },
     {
-      "scope": ["keyword.operator.assignment", "keyword.operator.arithmetic"],
+      "scope": "keyword.operator.assignment",
       "settings": {
         // "foreground": "#bcb28d"
         "foreground": "#47CAAF"
@@ -564,8 +564,8 @@
         "variable",
         "entity.name.type",
         "entity.other.inherited-class",
-        "keyword.operator"
-        // "keyword.operator.arithmetic"
+        "keyword.operator",
+        "keyword.operator.arithmetic"
       ],
       "settings": {
         "foreground": "#E6844F"
@@ -626,8 +626,8 @@
     // javascript
     {
       "scope": [
-        "keyword.operator.assignment.js",
-        "keyword.operator.arithmetic.js"
+        "keyword.operator.assignment.js"
+        // "keyword.operator.arithmetic.js"
       ],
       "settings": {
         // "foreground": "#bcb28d"
