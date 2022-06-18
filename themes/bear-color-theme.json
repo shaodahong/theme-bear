@@ -451,7 +451,7 @@
       "name": "this.self",
       "scope": "variable.language",
       "settings": {
-        "foreground": "#E03C8A",
+        "foreground": "#58b2dc",
         // "foreground": "#bcb28d",
         "fontStyle": "italic"
       }
@@ -700,7 +700,7 @@
         "variable.parameter.function.language.special.self.python"
       ],
       "settings": {
-        "foreground": "#E03C8A",
+        "foreground": "#58b2dc",
         "fontStyle": "italic"
       }
     },
@@ -719,12 +719,12 @@
       }
     },
 
-    {
-      "scope": ["meta.structure.dictionary.key.python"],
-      "settings": {
-        "foreground": "#9cdcfe"
-      }
-    },
+    // {
+    //   "scope": ["meta.structure.dictionary.key.python"],
+    //   "settings": {
+    //     "foreground": "#9cdcfe"
+    //   }
+    // },
     {
       "scope": ["string.quoted.docstring.multi.python"],
       "settings": {
