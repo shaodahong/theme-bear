@@ -451,8 +451,8 @@
       "name": "this.self",
       "scope": "variable.language",
       "settings": {
-        // "foreground": "#E03C8A",
-        "foreground": "#bcb28d",
+        "foreground": "#E03C8A",
+        // "foreground": "#bcb28d",
         "fontStyle": "italic"
       }
     },
@@ -626,24 +626,12 @@
     // javascript
     {
       "scope": [
-        "keyword.operator.accessor.js",
         "keyword.operator.assignment.js",
         "keyword.operator.arithmetic.js"
       ],
       "settings": {
         // "foreground": "#bcb28d"
         "foreground": "#47CAAF"
-      }
-    },
-    {
-      "scope": [
-        "string.unquoted.js",
-        // "variable.other.property.js",
-        "variable.other.readwrite.js",
-        "variable.other.object.js"
-      ],
-      "settings": {
-        "foreground": "#E6844F"
       }
     },
     {
@@ -657,7 +645,11 @@
       }
     },
     {
-      "scope": ["support.type.object.dom.js", "support.type.object.console.js"],
+      "scope": [
+        "support.type.object.dom.js",
+        "support.type.object.console.js",
+        "keyword.operator.accessor.js"
+      ],
       "settings": {
         "foreground": "#bcb28d"
       }
