@@ -53,7 +53,6 @@
     "sideBar.background": "#1f2023",
     "sideBar.border": "#1f2023",
     "sideBar.foreground": "#838f88",
-    // "sideBar.foreground": "#797B80",
     "sideBarSectionHeader.background": "#1f2023",
     "sideBarSectionHeader.foreground": "#999",
     "sideBarTitle.foreground": "#999",
@@ -74,7 +73,6 @@
     "tab.inactiveBackground": "#1f2023",
     "tab.activeBorder": "#E6844F",
     "tab.inactiveForeground": "#696455",
-    // "tab.inactiveForeground": "#6f7176",
     "tab.hoverBackground": "#282b31",
     "tab.border": "#1f2023",
 
@@ -121,9 +119,6 @@
     "editorBracketMatch.border": "#886b67",
 
     // git
-    // "gitDecoration.ignoredResourceForeground": "#494c59",
-    // "gitDecoration.modifiedResourceForeground": "#f69968",
-    // "gitDecoration.deletedResourceForeground": "#fb7da7",
     "gitDecoration.ignoredResourceForeground": "#545d57",
     "gitDecoration.modifiedResourceForeground": "#76c5a4",
     "gitDecoration.untrackedResourceForeground": "#f69968",
@@ -452,7 +447,6 @@
       "scope": "variable.language",
       "settings": {
         "foreground": "#58b2dc",
-        // "foreground": "#bcb28d",
         "fontStyle": "italic"
       }
     },
@@ -625,13 +619,9 @@
 
     // javascript
     {
-      "scope": [
-        "keyword.operator.assignment.js"
-        // "keyword.operator.arithmetic.js"
-      ],
+      "scope": ["keyword.operator.assignment.js"],
       "settings": {
         "foreground": "#bcb28d"
-        // "foreground": "#47CAAF"
       }
     },
     {
@@ -718,13 +708,6 @@
         "foreground": "#bcb28d"
       }
     },
-
-    // {
-    //   "scope": ["meta.structure.dictionary.key.python"],
-    //   "settings": {
-    //     "foreground": "#9cdcfe"
-    //   }
-    // },
     {
       "scope": ["string.quoted.docstring.multi.python"],
       "settings": {
@@ -740,12 +723,6 @@
         "foreground": "#66A866"
       }
     },
-    // {
-    //   "scope": ["keyword.operator.assignment.python"],
-    //   "settings": {
-    //     "foreground": "#47CAAF"
-    //   }
-    // },
     {
       "scope": [
         "keyword.operator.unpacking.parameter.python",
