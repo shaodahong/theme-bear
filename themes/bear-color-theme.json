@@ -121,8 +121,8 @@
     // git
     "gitDecoration.ignoredResourceForeground": "#545d57",
     "gitDecoration.modifiedResourceForeground": "#76c5a4",
-    "gitDecoration.untrackedResourceForeground": "#f69968",
-    "gitDecoration.conflictingResourceForeground": "#f69968"
+    "gitDecoration.untrackedResourceForeground": "#76c5a4",
+    "gitDecoration.conflictingResourceForeground": "#fb7da7"
   },
   "name": "theme-bear",
   "tokenColors": [
