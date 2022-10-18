@@ -688,7 +688,9 @@
     {
       "scope": [
         "variable.language.special.self.python",
-        "variable.parameter.function.language.special.self.python"
+        "variable.parameter.function.language.special.self.python",
+        "variable.language.special.cls.python",
+        "variable.parameter.function.language.special.cls.python"
       ],
       "settings": {
         "foreground": "#58b2dc",
