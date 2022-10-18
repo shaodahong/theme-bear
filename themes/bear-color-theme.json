@@ -727,6 +727,13 @@
       }
     },
     {
+      "name": "support.variable.magic.python",
+      "scope": "support.variable.magic.python",
+      "settings": {
+        "foreground": "#E6844F"
+      }
+    },
+    {
       "scope": [
         "keyword.operator.unpacking.parameter.python",
         "constant.language.python"
