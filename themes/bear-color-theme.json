@@ -707,7 +707,8 @@
         "keyword.operator.python",
         "meta.attribute.python",
         "meta.function-call.arguments.python",
-        "meta.indexed-name.python"
+        "meta.indexed-name.python",
+        "variable.legacy.builtin.python"
       ],
       "settings": {
         "foreground": "#bcb28d"
