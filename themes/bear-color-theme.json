@@ -8,13 +8,13 @@
     "errorForeground": "#E03C8A",
 
     // terminal
-    "terminal.ansiBlue": "#58b2dc",
+    "terminal.ansiBlue": "#6796e6",
     "terminal.ansiBrightBlue": "#58b2dc",
     "terminal.ansiRed": "#E03C8A",
     "terminal.ansiBrightRed": "#e6844f",
     "terminal.ansiYellow": "#e6844f",
     "terminal.ansiBrightYellow": "#657b83",
-    "terminal.ansiGreen": "#24936e",
+    "terminal.ansiGreen": "#4EC9B0",
     "terminal.ansiBrightGreen": "#5c8490",
     "terminal.ansiWhite": "#eee8d5",
     "terminal.ansiBrightWhite": "#fdf6e3",
