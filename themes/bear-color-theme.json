@@ -106,7 +106,7 @@
     "list.errorForeground": "#E03C8A",
     "list.hoverForeground": "#bcb28d",
     "list.highlightForeground": "#93a1a1",
-    "quickInputList.focusBackground": "#3A3E47",
+    "quickInputList.focusBackground": "#2A5A66",
 
     // editorGroupHeader
     "editorGroupHeader.tabsBackground": "#1f2023",
