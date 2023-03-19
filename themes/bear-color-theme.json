@@ -95,7 +95,7 @@
     "titleBar.inactiveForeground": "#707C74",
 
     // list
-    "list.hoverBackground": "#3a3e47",
+    "list.hoverBackground": "#243d46",
     "list.focusBackground": "#2A5A66",
     "list.activeSelectionBackground": "#282b31" /*"#243d46"*/,
     "list.activeSelectionForeground": "#bcb28d",
