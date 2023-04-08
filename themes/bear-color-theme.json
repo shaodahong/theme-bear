@@ -669,7 +669,8 @@
         "variable.parameter.function.language.python",
         "keyword.control.flow.python",
         "variable.parameter.function-call.python",
-        "constant.other.caps.python"
+        "constant.other.caps.python",
+        "meta.fstring.python"
       ],
       "settings": {
         "foreground": "#58b2dc"
