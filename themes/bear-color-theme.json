@@ -646,6 +646,19 @@
         "foreground": "#bcb28d"
       }
     },
+    {
+      "name": "js variable readwrite",
+      "scope": [
+        "support.type.object.console.js",
+        "meta.object-literal.key",
+        "support.variable.property",
+        "support.variable.object.process",
+        "support.variable.object.node"
+      ],
+      "settings": {
+        "foreground": "#bcb28d"
+      }
+    },
 
     // python
     {
