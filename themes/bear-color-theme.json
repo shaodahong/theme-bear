@@ -738,8 +738,8 @@
     },
     {
       "scope": [
-        "keyword.operator.unpacking.parameter.python"
-        // "constant.language.python"
+        "keyword.operator.unpacking.parameter.python",
+        "keyword.operator.unpacking.arguments.python"
       ],
       "settings": {
         "foreground": "#DDA52D"
