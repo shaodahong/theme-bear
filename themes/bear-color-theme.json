@@ -738,11 +738,17 @@
     },
     {
       "scope": [
-        "keyword.operator.unpacking.parameter.python",
-        "constant.language.python"
+        "keyword.operator.unpacking.parameter.python"
+        // "constant.language.python"
       ],
       "settings": {
         "foreground": "#DDA52D"
+      }
+    },
+    {
+      "scope": "constant.language.python",
+      "settings": {
+        "foreground": "#DB71D6"
       }
     },
     // dart
