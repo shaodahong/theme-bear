@@ -737,7 +737,8 @@
     {
       "scope": [
         "punctuation.definition.string.begin.python",
-        "punctuation.definition.string.end.python"
+        "punctuation.definition.string.end.python",
+        "constant.character.format.placeholder.other.python"
       ],
       "settings": {
         "foreground": "#66A866"
