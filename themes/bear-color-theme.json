@@ -518,7 +518,7 @@
     {
       "scope": "keyword.operator.assignment",
       "settings": {
-        "foreground": "#bcb28d"
+        "foreground": "#EF82C0"
         // "foreground": "#47CAAF"
       }
     },
@@ -623,7 +623,7 @@
     {
       "scope": ["keyword.operator.assignment.js"],
       "settings": {
-        "foreground": "#bcb28d"
+        "foreground": "#EF82C0"
       }
     },
     {
