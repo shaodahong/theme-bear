@@ -762,7 +762,7 @@
     {
       "scope": "constant.language.python",
       "settings": {
-        "foreground": "#DB71D6"
+        "foreground": "#DDA52D"
       }
     },
     // dart
