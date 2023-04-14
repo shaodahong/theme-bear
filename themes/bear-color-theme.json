@@ -623,43 +623,35 @@
     {
       "scope": ["keyword.operator.assignment.js"],
       "settings": {
-        "foreground": "#bcb28d"
+        "foreground": "#47c0c3"
       }
     },
     {
       "scope": [
+        "entity.name.class.js",
         "entity.name.type.instance.js",
         "variable.language.this.js",
-        "variable.language.self.js"
+        "variable.language.self.js",
+        "support.type.object.console.js"
       ],
       "settings": {
-        "foreground": "#58b2dc"
+        "foreground": "#E6844F"
       }
     },
     {
       "scope": [
-        "support.type.object.dom.js",
-        "support.type.object.console.js",
+        "meta.object-literal.key",
+        "support.variable.property",
+        "support.variable.object.process",
+        "support.variable.object.node",
+        "variable.other.readwrite.js",
+        "variable.other.property.js",
         "keyword.operator.accessor.js"
       ],
       "settings": {
         "foreground": "#bcb28d"
       }
     },
-    {
-      "name": "js variable readwrite",
-      "scope": [
-        "support.type.object.console.js",
-        "meta.object-literal.key",
-        "support.variable.property",
-        "support.variable.object.process",
-        "support.variable.object.node"
-      ],
-      "settings": {
-        "foreground": "#bcb28d"
-      }
-    },
-
     // python
     {
       "scope": [
