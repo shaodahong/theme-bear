@@ -676,7 +676,8 @@
         "support.function.magic.python",
         "support.type.exception.python",
         "constant.character.format.placeholder.other.python",
-        "storage.type.string.python"
+        "storage.type.string.python",
+        "support.variable.magic.python"
       ],
       "settings": {
         "foreground": "#E6844F"
@@ -736,23 +737,11 @@
       }
     },
     {
-      "name": "support.variable.magic.python",
-      "scope": "support.variable.magic.python",
-      "settings": {
-        "foreground": "#E6844F"
-      }
-    },
-    {
       "scope": [
         "keyword.operator.unpacking.parameter.python",
-        "keyword.operator.unpacking.arguments.python"
+        "keyword.operator.unpacking.arguments.python",
+        "constant.language.python"
       ],
-      "settings": {
-        "foreground": "#DDA52D"
-      }
-    },
-    {
-      "scope": "constant.language.python",
       "settings": {
         "foreground": "#DDA52D"
       }
