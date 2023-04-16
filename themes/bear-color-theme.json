@@ -651,6 +651,7 @@
         "foreground": "#bcb28d"
       }
     },
+
     // python
     {
       "scope": [
@@ -745,6 +746,7 @@
         "foreground": "#DDA52D"
       }
     },
+
     // dart
     {
       "scope": ["variable.language.dart", "keyword.other.import.dart"],
