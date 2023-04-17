@@ -1,28 +1,26 @@
-<h1 align="center">🐻 Bear Theme 🐻</h1>
+<h1 align="center">Quokka Theme</h1>
 <p align="center">
-  <img alt="icon" width="20%" src="https://raw.githubusercontent.com/shaodahong/theme-bear/master/icon.png">
+  <img alt="icon" width="20%" src="https://raw.githubusercontent.com/xshapira/quokka-theme/main/icon.png">
 </p>
 
-A simple and friendly vscode theme.
+A minimal yet powerful theme that maximizes productivity.
 
-- [x] For long time coding.
-- [x] Friendly highlight.
-- [x] Support for Python.
+- [x] Eye-friendly highlighting
+- [x] Optimized for focus
+- [x] Built-in support for Python syntax
 
 <p align="center">
-  <img alt="bear-theme-snap" width="80%" src="https://raw.githubusercontent.com/shaodahong/theme-bear/master/bear-theme-snap.png">
+  <img alt="quokka-theme-snap" width="80%" src="https://raw.githubusercontent.com/xshapira/quokka-theme/main/quokka-theme-snap.png">
 </p>
 
 <p align="center">
-  <img alt="bear-theme-snap-2" width="80%" src="https://raw.githubusercontent.com/shaodahong/theme-bear/master/bear-theme-snap-2.png">
+  <img alt="quokka-theme-snap-2" width="80%" src="https://raw.githubusercontent.com/xshapira/quokka-theme/main/quokka-theme-snap-2.png">
 </p>
-
-The theme base on [vscode theme-defaults](https://github.com/Microsoft/vscode/tree/master/extensions/theme-defaults).
 
 ## In preview
 
-The font in preview is [FiraCode](https://github.com/tonsky/FiraCode) and [Dank Mono](https://dank.sh/)
+The font in preview is [MonoLisa](https://www.monolisa.dev/).
 
 ## Other
 
-The theme will be updated from time to time, if you have good suggestions welcome to put [issues](https://github.com/shaodahong/theme-bear/issues).
+This theme is a next-level version of [shaodahong](https://github.com/shaodahong/)'s fantastic [bear theme](https://github.com/shaodahong/theme-bear), now improved and updated to offer even more to your productivity. 
