@@ -1,9 +1,10 @@
-import React from 'react';
+do {
+    
+    do {
+        for (let index = 0; index < array.length; index++) {
+            const element = array[index];
+            import
+        }  'react';
+    } while (SVGAngle);
+} while (12);
 
-class Demo extends React.Component {
-  componentDidMount() {}
-
-  render() {
-    return <div>Hello World</div>;
-  }
-}
